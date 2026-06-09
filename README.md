@@ -47,10 +47,10 @@ Hold `Ctrl` and click that link (or copy and paste it into your browser) to open
 
 ## Model Configuration Note
 Inside `app.py`, under the prediction processing lines, you will find a classes list:
-```python
+```
 classes = ["Normal", "Bacterial", "Viral"]
 ```
 This maps the Neural Network output indexes (`0`, `1`, `2`) to a human-readable string. If during your model's training process the alphabetized order of the dataset folders was different, you will need to adjust the names in that array inside `app.py` to match!
-=======
-# Pnuemonia-detection
->>>>>>> 86fc9948a08db47c6e42b004bbb41b7aa0189ff9
+
+
+
